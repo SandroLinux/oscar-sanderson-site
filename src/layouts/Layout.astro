@@ -8,15 +8,12 @@ import '../styles/global.css';
 <!doctype html>
 <html lang="en">
 	<BaseHead />
-	<body>
-	<div class="ml-2 mt-2">
+	<body class="flex flex-col min-h-screen">
 		<Header />
-		<div class="flex flex-col content-center mt-5">
-			<div class="base-16">
-				<slot />
-			</div>
+		<div class="flex flex-col mt-5 ml-2 flex-grow">
+			<slot />
 		</div>
-	</div>
+		<Footer />
 	</body>
 </html>
 

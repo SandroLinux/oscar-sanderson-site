@@ -1,2 +1,2 @@
 # Oscarsanderson.net
-This is the code for oscarsanderson.net. More updates are coming in the future.
+This is the code for oscarsanderson.net which is my personal website.
